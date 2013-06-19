@@ -84,14 +84,14 @@ if has("cscope")
     " go back to where you were before the search.  
     "
 
-    nnoremap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>  
-    nnoremap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>  
-    nnoremap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>  
-    nnoremap <C-\>t :cs find t <C-R>=expand("<cword>")<CR><CR>  
-    nnoremap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>  
-    nnoremap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>  
-    nnoremap <C-\>i :cs find i <C-R>=expand("<cfile>")<CR><CR>  
-    nnoremap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>  
+    nnoremap <leader>s :cs find s <C-R>=expand("<cword>")<CR><CR>  
+    nnoremap <leader>g :cs find g <C-R>=expand("<cword>")<CR><CR>  
+    nnoremap <leader>c :cs find c <C-R>=expand("<cword>")<CR><CR>  
+    nnoremap <leader>t :cs find t <C-R>=expand("<cword>")<CR><CR>  
+    nnoremap <leader>e :cs find e <C-R>=expand("<cword>")<CR><CR>  
+    nnoremap <leader>f :cs find f <C-R>=expand("<cfile>")<CR><CR>  
+    nnoremap <leader>i :cs find i <C-R>=expand("<cfile>")<CR><CR>  
+    nnoremap <leader>d :cs find d <C-R>=expand("<cword>")<CR><CR>  
 
 
     " Using 'CTRL-spacebar' (intepreted as CTRL-@ by vim) then a search type

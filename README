@@ -1,6 +1,7 @@
 Fork Changes
 ============
 Use `nnoremap` instead of `nmap`.
+Use `<leader>` instead of `<C-\>`
 
 
 Original Readme
