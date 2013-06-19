@@ -1,3 +1,11 @@
+Fork Changes
+============
+Use `nnoremap` instead of `nmap`.
+
+
+Original Readme
+===============
+
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=51
 
 This script implements the recommended settings for vim's cscope interface, and also provides a set of key mappings I've found useful.  If you don't know what cscope is, go to http://cscope.sourceforge.net and check it out--it's more powerful than ctags, though it works with fewer languages (primarily C/C++/Java).
